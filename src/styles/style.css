@@ -1,0 +1,23 @@
+@import '~normalize.css/normalize.css';
+@import 'fonts.css';
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+h1 {
+    text-align: center;
+}
+
+.logo {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    background-image: url(../assets/webpack-logo.png);
+    background-size: cover;
+    background-position: center;
+}
